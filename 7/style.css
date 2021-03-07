@@ -1,0 +1,87 @@
+#welcome {
+
+    position: absolute;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.links {
+    float: left;
+    color: floralwhite;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+.links:hover {
+    background-color: gold;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+
+}
+
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+#about {
+    padding: 50px;
+    background: linear-gradient(#27ae60 0%, #60ebeb 100%);
+    text-align: center;
+
+}
+
+#contact {
+    font-size: 50px;
+    background-color: chartreuse
+}
+
+
+#inspiration {
+    background-color: aqua;
+}
+
+#my work {
+    text-align: center;
+    background-color: deeppink;
+    font-size: 40px;
+}
