@@ -1,92 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My favourite hobby</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
 
+<title>C81</title>
 
+<link rel="stylesheet" type="text/css" href="C81style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
+<body class="body_backgorund">
+
+<center>
+	<h1>Paint</h1>
+	<canvas id="myCanvas" width="800" height="600"></canvas>
+	<br>
+	<span>
+color- 
+<input type="text" id="color">
+	</span>
+	
+	<span>
+		width- 
+		<input type="text" id="width">
+			</span>
+			
+	<button onclick="clearArea();">Clear</button>
+</center>
 
 
-<ul class="menu">
-
-    <li class="links"><a href="#about">About</a></li>
-    <li class="links"><a href="#cube">My favourite cubes</a></li>
-    <li class="links"><a href="#my work">My work</a></li>
-    <li class="links"><a href="#inspiration">Inspiration</a></li>
-    <li class="links"><a href="#contact">CONTACT</a></li>
-
-</ul>
-
-
-<body>
-    <section id="welcome">
-        <div class="parallax-inner">
-
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5vND_Kx0Os8QaHcAqefA2dLlaGed7Q1BxVAKbowAxLn5YEy-9dKrjd6_g4BVxS38-1z6IjZ8&usqp=CAc" class="profile" />
-            <h1> <br><span id="name">My favourite hobby</span></h1>
-            <h2>Solving a rubik's cube</h2>
-        </div>
-
-    </section>
-    <section id="about">
-        <div class="line"></div>
-        <h1>About</h1>
-        <br>
-        <h2>The Rubik's Cube is a 3-D combination puzzle invented in 1974 by Hungarian sculptor and professor of architecture Ernő Rubik. Originally called the Magic Cube, the puzzle was licensed by Rubik to be sold by Ideal Toy Corp. in 1980 via businessman Tibor Laczi and Seven Towns founder Tom Kremer.</h2>
-    </section>
-
-    <section class="cube">
-        <h1>3X3</h1>
-        <span>
-            <img src="https://images-na.ssl-images-amazon.com/images/I/51k6JSEUR3L._AC_SL1100_.jpg">
-        </span>
-        <div></div>
-        <h2>PRAMINX</h2>
-        <span></span>
-        <img src="https://www.maskecubos.com/3135-large_default/qiyi-piraminx-stickerless.jpg">
-    </section>
-    <section class="my work">
-        <p>
-            1.learned to solve 8 cubes
-            2.fastest time of 3x3-34.26 seconds
-            3.fastest time of praminx-12.78 seconds
-            4.fastest time of 2x2-8.34 seconds
-            5.fastest time of megaminx-6 minutes 18.12 seconds
-
-
-
-        </p>
-
-
-
-    </section>
-    <section class="inspiration">
-        <img src="https://i.pinimg.com/564x/ea/85/b4/ea85b4b699cc8f0411a04422b6d27189.jpg">
-        <h1>Feliks Aleksanders Zemdegs is an Australian Rubik's Cube speedsolver. He is the only speedcuber to ever win the World Cube Association World Championship twice, winning in 2013 and 2015. He is often considered the greatest speedsolver of all time.</h1>
-    </section>
-
-
-    <section id="contact">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.305750934434!2d72.88640048092041!3d19.12622880371804!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWhitehat%20Education%20Technology%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1615205137720!5m2!1sen!2sin" width="600" height="450" style="frameborder:0;" allowfullscreen=""></iframe>
-        <div class="contact_1"><a href="mailto:adiv14922@gmail.com?Subject=hello">
-                <i class="fa fa-envelope"></i>&nbsp;&nbsp;<h3>adiv14922@gmail.com</h3>
-            </a></div>
-
-    </section>
-
-
-
-
-
-
-
-
-
+<script src="C81main.js"></script>
 </body>
-
 </html>
